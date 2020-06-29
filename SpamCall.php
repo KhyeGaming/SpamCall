@@ -68,7 +68,7 @@ class prankcall{
 			$h[] = "Host: api.grab.com";
 			$h[] = "Connection: close";
 			$ch = curl_init();
-			curl_setopt($ch, CURLOPT_URL, "https://api.grab.com/grabid/v1/phone/otp");
+			curl_setopt($ch, CURLOPT_URL, "https://id.jagreward.com/member/verify-mobile/nomordisini/");
 			curl_setopt($ch, CURLOPT_POST, 1);
 			curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
 			curl_setopt($ch, CURLOPT_HTTPHEADER, $h);
